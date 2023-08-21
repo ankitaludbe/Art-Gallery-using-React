@@ -1,3 +1,10 @@
+
+
+import "./App.css";
+import React from 'react';
+import Navbar from './Component/Navbar';
+
+
 import axios from "axios";
 import React from "react";
 
@@ -15,11 +22,19 @@ const baseURL = "https://api.harvardartmuseums.org/Image?apikey=88f9eea6-60a7-42
   if (!post) return null;
   console.log(post);
   return (
+    <>
+    
+
+        <Navbar/>
+      
+    </>
+
     <div>
       {
         <img src={post["records"][1]["baseimageurl"]} alt="first"/>
       }
     </div>
+
   );
   // https://www.louvre.fr/en/what-s-on/exhibitions/naples-in-paris
 }
