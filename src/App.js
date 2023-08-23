@@ -3,12 +3,13 @@
 import "./App.css";
 import React from 'react';
 import Navbar from './Component/Navbar';
+import VideoPlayer from "./Component/Hero";
 
  function App() {
   return (
     <>
         <Navbar/>
-      
+        <VideoPlayer/>
     </>
 
    
