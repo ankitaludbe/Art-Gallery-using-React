@@ -20,8 +20,8 @@ const Navbar = () => {
                     </div>
 
                     <div id="thirdsec" className='col-md-4'>
-                        <NavLink to="/" className="me-3"><i class="fa-solid fa-bag-shopping"></i>&nbsp;&nbsp;Online Boutique</NavLink>
-                        <NavLink to="/"><i class="fa-solid fa-ticket"></i> Tickets</NavLink>
+                        <NavLink to="/" className="me-3"><i className="fa-solid fa-bag-shopping"></i>&nbsp;&nbsp;Online Boutique</NavLink>
+                        <NavLink to="/"><i className="fa-solid fa-ticket"></i> Tickets</NavLink>
 
                     </div>
                 </div>
