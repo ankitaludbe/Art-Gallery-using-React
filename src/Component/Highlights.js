@@ -12,7 +12,11 @@ function ImageSlider({ images }) {
   };
 
   return (
+    
     <div className="image-slider">
+      <div id="secsec2" className='col-md-4 '>
+          <h2>HIGHLIGHTS</h2>
+      </div>
       <button className='p-1 rounded-full shadow bg-white/80 text-grey-800 hover:bg-white' 
       onClick={goToPrev}>Previous
       </button>
